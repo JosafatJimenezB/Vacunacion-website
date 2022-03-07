@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body{
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #FFF;
+    color: #6d7b93; 
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*---------------Diseño del nav---------------*/
+
+header{
+    background-color: rgba(255,255,255,0.3);
+    backdrop-filter: blur(20px); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 185px;
+    padding: 0px 165px;
+}
+
+header h2{
+    font-size: 2.3em;
+    color: #2747c5;
+    font-weight: 800;
+}
+
+nav li{
+
+    float: left;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px 10px;
+    color: #6d7b93;
+    text-decoration: none;
+}
+
+#hoax-button a{
+    color: white;
+    background-color: #3858d6;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+
