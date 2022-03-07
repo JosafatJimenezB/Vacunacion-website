@@ -1,12 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 body{
     font-size: 16px;
-    box-sizing: border-box;
     background-color: #FFF;
     color: #6d7b93; 
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+body::-webkit-scrollbar{
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #1f3e72;
+    border-radius: 5px;
 }
 
 /*---------------Diseño del nav---------------*/
@@ -19,12 +28,16 @@ header{
     justify-content: space-between;
     height: 185px;
     padding: 0px 165px;
+
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 header h2{
     font-size: 2.3em;
     color: #2747c5;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 nav li{
@@ -35,8 +48,8 @@ nav li{
 
 nav li a{
     font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0px 10px;
+    font-weight: 500;
+    margin: 0px 40px;
     color: #6d7b93;
     text-decoration: none;
 }
@@ -44,8 +57,57 @@ nav li a{
 #hoax-button a{
     color: white;
     background-color: #3858d6;
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 10px;
 }
 
+/*-----------------Landing page-------------------*/
 
+#landing-page{
+    display: flex;
+    height: 130vh;
+}
+
+/*-------Parte izquierda--------*/
+
+.landing-izquierda{
+    box-sizing: border-box;
+    padding-top: 250px;
+    padding-left: 160px;
+    width: 50%;
+}
+
+.landing-izquierda h1{
+    margin-bottom: 50px;
+    font-size: 5em;
+    color: #1f3e72;
+}
+
+.landing-izquierda p{
+    height: 130px;
+    font-size: 1.5em;
+}
+
+.landing-izquierda b{
+    display: inline-flex;
+    align-items: center;
+    padding: 20px 0px 0px 0xp;
+}
+
+.landing-izquierda box-icon{
+    height: 30px; 
+    width: 30px;
+    background-color: #fffae5;
+}
+
+/*-------parte derecha-------*/
+
+.landing-derecha{
+    width: 50%;
+    background: linear-gradient(70deg, #1685e2, #2a70de);
+}
+
+.landing-derecha img{
+    width: 100%;
+    height: 100%;
+}
