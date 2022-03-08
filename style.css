@@ -91,7 +91,7 @@ nav li a{
 }
 
 .landing-izquierda b{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.5em;
     display: inline-flex;
     align-items: center;
@@ -110,6 +110,10 @@ nav li a{
     margin-top: 200px;
 }
 
+.schedule-vaccine box-icon{
+    background-color: #eef2ff;
+}
+
 /*-------parte derecha-------*/
 
 .landing-derecha{
@@ -126,10 +130,44 @@ nav li a{
 
 
 
+/*------------------------Caja flotante del landing-------------------*/
+
+.floating-box{
+    background-color: #f8f9fd;
+    width: 70%;
+    height: 150px;
+    margin-top: 110vh;
+    margin-left: 170px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    box-shadow: 20px 20px 20px rgba(153, 153, 153, 0.5);
+    position: absolute;
+}
+
+
+.floating-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+
+.floating-box p{
+    color: black;
+}
+
+.floating-box a{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #3555d3;
+}
 
 
 
-/*-------------Responsive 1360px------------------*/
+/*-------------Responsive 1200px------------------*/
 
 @media screen and (max-width: 1200px) {
    
