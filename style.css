@@ -113,3 +113,26 @@ nav li a{
     width: 100%;
     height: 100%;
 }
+
+
+
+/*-------------Responsive------------------*/
+
+@media only screen and (max-width: 1300px) {
+   header{
+        height: 150px;    
+   } 
+
+   header h2{
+       font-size: 1.5em;
+   }
+
+   nav li a{
+       font-size: 1rem;
+       padding: 10px 20px;
+   }
+
+   #hoax a{
+
+   }
+  }
