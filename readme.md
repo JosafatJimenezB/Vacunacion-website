@@ -23,11 +23,11 @@ La práctica consiste en lo siguiente:
 
 ## Despliegue :satellite:
 
-**Despliegue en Github Pages** :octocat:
+**Despliegue en Github Pages** :octocat: <br>
 [Ver pagina](https://josafatjimenezb.github.io/Vacunacion-website/)
 
 
-**Despliegue en Netlify** :diamond_shape_with_a_dot_inside:
+**Despliegue en Netlify** :diamond_shape_with_a_dot_inside: <br>
 [Ver pagina](https://vacunacion-website.netlify.app/)
 
 
