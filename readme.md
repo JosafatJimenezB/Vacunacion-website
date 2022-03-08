@@ -22,6 +22,13 @@ La práctica consiste en lo siguiente:
 
 
 ## Despliegue :satellite:
-coming soon...
+
+**Despliegue en Github Pages** :octocat:
+[Ver pagina](https://josafatjimenezb.github.io/Vacunacion-website/)
+
+
+**Despliegue en Netlify** :diamond_shape_with_a_dot_inside:
+[Ver pagina](https://vacunacion-website.netlify.app/)
+
 
 ###### Made with :heart: by Josafat Jimenez :mexico:
