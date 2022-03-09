@@ -88,9 +88,9 @@ nav li a{
 .triangulo-2{
     width: 0;
     height: 0;
-    border-top: 110px solid transparent;
-    border-right: 110px solid #f4f6fb;
-    border-bottom: 110px solid transparent;
+    border-top: 150px solid transparent;
+    border-right: 150px solid #f4f6fb;
+    border-bottom: 150px solid transparent;
     z-index: 0;
 }
 
@@ -99,8 +99,8 @@ nav li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 68vh;
-    margin-left: 85.9vh;
+    margin-top: 65vh;
+    margin-left: 81.7vh;
 }
 
 /*-------Parte izquierda--------*/
@@ -242,6 +242,68 @@ nav li a{
 #logo-vaccines img{
     width: 300px;
     opacity: 0.2;
+}
+
+
+
+
+/*----------------Informacion acerca de la vacunacion------------------*/
+
+#info-vaccine{
+    height: auto;
+}
+
+
+#info-vaccine h2{
+    font-size: 4em;
+    color: #1f3e72;
+    padding: 0px 0px 0px 150px;
+}
+
+.info-vaccine-parraf{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 0px 0px 0px 150px;
+}
+
+
+.vacci-info-container{
+    padding: 40px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column; 
+    transition: box-shadow 0.3s ease-in-out;
+    
+    width: auto;
+    margin: 20px;
+    padding: 40px 40px 70px 40px;
+    background-color: #FFF;
+    border: 3px solid #fafaff;
+    border-radius: 10px;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.5);
+}
+
+
+.card h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.card p{
+    margin: 0;
+    text-align: start;
 }
 
 
