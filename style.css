@@ -21,8 +21,8 @@ body::-webkit-scrollbar-thumb{
 /*---------------Diseño del nav---------------*/
 
 header{
-    background-color: rgba(255,255,255,0.3);
-    backdrop-filter: blur(20px); 
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px); 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +66,7 @@ nav li a{
 
 #landing-page{
     display: flex;
-    height: 130vh;
+    height: 133vh;
 }
 
 /*-------Parte izquierda--------*/
@@ -133,14 +133,19 @@ nav li a{
 /*------------------------Caja flotante del landing-------------------*/
 
 .floating-box{
-    background-color: #f8f9fd;
+    background-color: rgba(253, 254, 255, 0.9);
+    
+    /*Por si se usa efecto glassmorphism*/
+    
+    /* background-color: rgba(253, 254, 255, 0.3);
+    backdrop-filter: blur(20px); */
     width: 70%;
-    height: 150px;
-    margin-top: 110vh;
-    margin-left: 170px;
+    height: 190px;
+    margin-top: 108vh;
+    margin-left: 160px;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    box-shadow: 20px 20px 20px rgba(153, 153, 153, 0.5);
+    box-shadow: 0px 20px 20px rgba(153, 153, 153, 0.5);
     position: absolute;
 }
 
@@ -149,7 +154,9 @@ nav li a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-family: sans-serif;
     font-size: 1.5em;
+    box-sizing: border-box;
 }
 
 
@@ -163,6 +170,22 @@ nav li a{
     border-radius: 10px;
     color: #FFF;
     background-color: #3555d3;
+}
+
+.floating-box table{
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.floating-box table th{
+    font-weight: 400;
+}
+
+.floating-box table td{
+    font-size:2rem;
+    font-weight: 700;
+    color: #1f3e72;
 }
 
 
