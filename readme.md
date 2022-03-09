@@ -31,4 +31,7 @@ La práctica consiste en lo siguiente:
 [Ver pagina](https://vacunacion-website.netlify.app/)
 
 
+**Nota**
+Por el momento la pagina solo se encuentra en version desktop 1920 x 1280, proximamente se añadira el diseño responsive
+
 ###### Made with :heart: by Josafat Jimenez :mexico:
