@@ -32,6 +32,7 @@ header{
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 header h2{
@@ -67,6 +68,39 @@ nav li a{
 #landing-page{
     display: flex;
     height: 133vh;
+}
+
+.triangulo-1 {
+    z-index: 0;
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-top: 110px solid #f4f6fb;
+}
+
+.triangulo-1{
+    margin: 185px 0px 0px 60px;
+    position: absolute;
+}
+
+
+.triangulo-2{
+    width: 0;
+    height: 0;
+    border-top: 110px solid transparent;
+    border-right: 110px solid #f4f6fb;
+    border-bottom: 110px solid transparent;
+    z-index: 0;
+}
+
+.triangulo-2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 68vh;
+    margin-left: 85.9vh;
 }
 
 /*-------Parte izquierda--------*/
@@ -187,6 +221,29 @@ nav li a{
     font-weight: 700;
     color: #1f3e72;
 }
+
+
+
+/*-------------Logos de las vacunas-----------------*/
+
+
+#logo-vaccines{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#logo-vaccines img{
+    width: 300px;
+    opacity: 0.2;
+}
+
 
 
 
