@@ -268,11 +268,12 @@ nav li a{
 
 
 .vacci-info-container{
+    width: 100%;
+    margin: 0;
     padding: 40px auto;
     display:flex;
     align-items: center;
     justify-content: center;
-
     flex-wrap: wrap;
 }
 
@@ -293,16 +294,23 @@ nav li a{
 
 .card:hover{
     box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.5);
+    cursor: pointer;
 }
 
+.card box-icon{
+    width: 25px;
+    background-color: lightblue;
+}
 
 .card h3{
+    color: #3a5684;
     font-weight: 400;
     font-size: 2rem;
 }
 
 .card p{
     margin: 0;
+    font-size: 1.5rem;
     text-align: start;
 }
 
