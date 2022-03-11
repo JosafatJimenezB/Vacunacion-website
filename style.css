@@ -324,6 +324,9 @@ nav li a{
 
 
 
+
+
+
 /*-------------Responsive 1200px------------------*/
 
 @media screen and (max-width: 1440px) {
@@ -418,9 +421,11 @@ nav li a{
     }
 
     nav li a{
+        display: flex;
+        align-items: center;
+        margin: 0;
         justify-content: space-around;
         font-size: 1rem;
-        padding: 10px 20px;
     }
 
     #hoax-button a{
@@ -436,13 +441,14 @@ nav li a{
     #landing-page{
         height: 100vh;
         padding: 0; 
+        display: flex;
     }
 
-
-
-
     .landing-izquierda{
+        width: 100%;
+        position: absolute;
         padding-left: 100px;
+        z-index: 0;
     }
 
     .landing-izquierda h1{
@@ -450,6 +456,17 @@ nav li a{
         margin-bottom: 60px;
         font-size: 4em;
         color: #1f3e72;
+    }
+
+    .landing-izquierda p{
+        color: #495263;
+    }
+
+
+    .landing-derecha{
+        z-index: -1;
+        width: 100%;
+        opacity: 0.5;
     }
 
     .landing-derecha img{
@@ -463,10 +480,16 @@ nav li a{
 
 
     .floating-box{
+        font-size: 1.5rem;
         box-sizing: border-box;
         margin: 0;
         width: 100%;
         margin-top: 100vh;
+        border-radius: 0px;
+    }
+
+    .table-subtitles{
+        font-size: 0.9rem;
     }
 
 
@@ -485,6 +508,22 @@ nav li a{
         width: 150px;
     }
 
+    #info-vaccine{
+        align-items: center;
+        margin: auto;
+    }
+
+    #info-vaccine h2, 
+    .info-vaccine-parraf{
+        padding: 0px 0px 0px 100px;
+    }
+
+    .floating-box table td{
+        font-size:1.7rem;
+        font-weight: 700;
+        color: #1f3e72;
+    }
+
     .vacci-info-container{
         width: 100%;
         margin: 0;
@@ -496,3 +535,185 @@ nav li a{
         align-items: center;
     }
 }
+
+
+
+
+/*---------------------Responsive para celular------------------*/
+
+
+
+@media screen and (max-width: 412px) {
+
+        
+    /*------------------header----------------*/
+    
+    header{
+        width: 421px;
+        padding: 10px;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    header h2{
+        margin: auto;
+        font-size: 2em;
+    }
+
+    nav li a{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    #hoax-button a{
+        color: white;
+        background-color: #3858d6;
+        margin: 0;
+        border-radius: 10px;
+    }
+
+
+    /*-------------------Landing page------------------*/
+    #landing-page{
+        height: 100vh;
+    }
+
+    .landing-izquierda{
+        padding: 200px  0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .landing-izquierda h1{
+        margin: auto;
+        font-size: 2.5em;
+        color: #1f3e72;
+    }
+
+    .landing-izquierda p{
+        margin-top: 60px;
+        font-size: 1.1rem;
+        color: #495263;
+    }
+
+    .landing-izquierda b{
+        margin-top: 40px;
+        font-size: 1.1rem;
+        color: #495263;
+    }
+
+
+    .landing-derecha{
+        z-index: -1;
+        width: 100%;
+        opacity: 0.5;
+        box-sizing: border-box;
+    }
+
+    .landing-derecha img{
+        align-items: center;
+    }
+
+
+    .schedule-vaccine{
+        margin-top: 100px;
+    }
+
+
+    .floating-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-size: 1rem;
+
+        box-sizing: border-box;
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+        height: auto;
+        margin-top: 95vh;
+    }
+
+    .floating-box table{
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    
+    .floating-box table th{
+        font-weight: 700;
+    }
+    
+    .floating-box table td{
+        font-size:1.5rem;
+        font-weight: 500;
+        color: #1f3e72;
+    }
+
+
+    /*Logos de las marcas*/
+    #logo-vaccines{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+
+    #logo-vaccines img{
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    #info-vaccine{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #info-vaccine h2{
+        box-sizing: content-box;
+        margin: 0;
+        padding: 40px;
+        font-size: 3em;
+    }
+
+    #info-vaccine p{
+        margin: 0;
+        padding: 40px;
+        font-size: 1.2rem;
+    }
+
+    .vacci-info-container{
+        width: 100%;
+        margin: 0;
+        padding: auto;
+    }
+
+    .card{
+        width: 100%;
+        align-items: center;
+    }
+
+    .card h3{
+        font-size: 2rem;
+    }
+}
+
+
+
