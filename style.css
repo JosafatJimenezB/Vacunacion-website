@@ -324,6 +324,99 @@ nav li a{
 
 
 
+/*-------------------Preparation vaccine---------------------*/
+
+#preparation-vaccine{
+    overflow: hidden;
+}
+
+.introduction-vaccine{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0;
+    padding: 0px 50px 0px 0px;
+}
+
+
+.introduction-vaccine h2{
+    padding: 0px 90px;
+    font-size: 3.5em;
+    color: #1f3e72;
+}
+
+.introduction-vaccine p{
+    font-size: 2rem;
+
+}
+
+.cajas{
+    display: flex;
+}
+
+.preparation-izquierda{
+    background: linear-gradient(70deg, #1685e2, #2a70de) 50%;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.preparation-izquierda img{
+    margin: -350px 0px 0px 0px;
+    width: 100%;
+    position: relative;
+    height: 180%;
+}
+
+.preparation-derecha{
+    padding: 80px;
+    margin: 0;
+    width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.list-item{
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    width: 80%;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.list-item box-icon{
+    border-radius: 5px;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+    background-color: #ebf2fe;
+}
+
+down-arrow{
+    margin-left: 40px;    
+}
+
+.list-item:hover{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 10px 20px rgba(184, 183, 183, 0.4);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
