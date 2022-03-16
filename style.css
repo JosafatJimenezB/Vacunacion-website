@@ -365,7 +365,7 @@ nav li a{
 
 .preparation-izquierda img{
     margin: -350px 0px 0px 0px;
-    width: 100%;
+    width: 120%;
     position: relative;
     height: 180%;
 }
@@ -410,11 +410,169 @@ down-arrow{
 
 
 
+/*Seccion de las vacunas*/
+
+
+#contact{
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.introduction-contact{
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.introduction-contact h2{
+    font-size: 3.5em;
+    color: #1f3e72;
+}
+
+.introduction-contact p{
+    font-size: 2rem;
+}
+
+.cajas-contact{
+    display: flex;
+}
+
+
+.contact-izquierda{
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-card{
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    width: 35%;
+    border: 2px solid whitesmoke;
+
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-card:hover{
+    box-shadow: 10px 10px 20px rgba(184, 183, 183, 0.4);
+}
+
+.contact-card box-icon{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f1f5ff;
+}
+
+.contact-card h3{
+    font-weight: 500;
+}
+
+.contact-card p{
+    margin: 0px 60px 10px;
+}
+
+.contact-card button{
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    background-color: #f1f5ff;
+    border: none;
+    color: #3353d1;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-card button:hover{
+    color: #f1f5ff;
+    background-color: #3353d1;
+    cursor: pointer;
+}
+
+
+.contact-derecha{
+    background: linear-gradient(70deg, #1685e2, #2a70de) 50%;
+    width: 50%;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.contact-derecha img{
+    margin: -247px 0px 0px 0px;
+    width: 100%;
+    position: relative;
+    height: 140%;
+}
 
 
 
+/*------------------Prefooter---------------------*/
+
+#prefooter{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f5ff;
+}
+
+.vacination-prefooter h2{
+    color: #3353d1;
+    font-size: 2.3rem;
+}
+
+.vacination-prefooter p{
+    font-size: 1.4rem;
+}
+
+.listas-prefooter{
+    display: flex;
+}
+
+.listas-prefooter h3{
+    font-size: 2.3rem;
+    color: #1f3e72;
+}
+
+.listas-prefooter li{
+    font-size: 1.4rem;
+    list-style: none;
+    margin-bottom: 20px;
+}
 
 
+/*------------footer--------------*/
+
+footer{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f5ff;
+}
+
+.copyright{
+    font-size: 1.4rem;
+}
+
+.terms{
+    display: flex;
+}
+
+.terms p{
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
 
 
 
