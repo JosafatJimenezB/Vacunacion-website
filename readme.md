@@ -7,6 +7,11 @@ Para esta práctica necesito que clonen la página que está en el siguiente enl
 
 Como pueden ver es una página de vacunación y en estos momentos que se está poniendo la tercer dosis en varios estados de la república y que en algunos otros se está poniendo la segunda o incluso la primera sigue siendo muy importante recordar toda esta información.
 
+
+## Estrategia de marketing
+
+![campaña](marketing.jpg)
+
 ## Instrucciones :clipboard:
 La práctica consiste en lo siguiente:
 
